@@ -1,0 +1,271 @@
+[
+    {
+        "key": "group_62e92df96142d",
+        "title": "Related Posts",
+        "fields": [
+            {
+                "key": "field_62e930dd92f40",
+                "label": "Entries",
+                "name": "rp-entries",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 1,
+                "max": 0,
+                "layout": "block",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_62e92e24d94eb",
+                        "label": "Hook",
+                        "name": "rp-hook",
+                        "type": "select",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "genesis_before": "genesis_before",
+                            "genesis_before_header": "genesis_before_header",
+                            "genesis_header": "genesis_header",
+                            "genesis_site_title": "genesis_site_title",
+                            "genesis_header_right": "genesis_header_right",
+                            "genesis_site_description": "genesis_site_description",
+                            "genesis_after_header": "genesis_after_header",
+                            "genesis_before_content_sidebar_wrap": "genesis_before_content_sidebar_wrap",
+                            "genesis_before_content": "genesis_before_content",
+                            "genesis_before_loop": "genesis_before_loop",
+                            "genesis_before_sidebar_widget_area": "genesis_before_sidebar_widget_area",
+                            "genesis_after_sidebar_widget_area": "genesis_after_sidebar_widget_area",
+                            "genesis_loop": "genesis_loop",
+                            "genesis_before_entry": "genesis_before_entry",
+                            "genesis_entry_header": "genesis_entry_header",
+                            "genesis_entry_content": "genesis_entry_content",
+                            "genesis_entry_footer": "genesis_entry_footer",
+                            "genesis_after_entry": "genesis_after_entry",
+                            "genesis_after_endwhile": "genesis_after_endwhile",
+                            "genesis_after_loop": "genesis_after_loop",
+                            "genesis_after_content": "genesis_after_content",
+                            "genesis_after_content_sidebar_wrap": "genesis_after_content_sidebar_wrap",
+                            "genesis_before_footer": "genesis_before_footer",
+                            "genesis_footer": "genesis_footer",
+                            "genesis_after_footer": "genesis_after_footer",
+                            "genesis_after": "genesis_after"
+                        },
+                        "default_value": false,
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "ui": 0,
+                        "return_format": "value",
+                        "ajax": 0,
+                        "placeholder": ""
+                    },
+                    {
+                        "key": "field_62e935c5f36b9",
+                        "label": "Show Fields",
+                        "name": "rp-show-fields",
+                        "type": "checkbox",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "title": "Title",
+                            "content": "Content",
+                            "excerpt": "Excerpt",
+                            "featured_media": "Featured Image",
+                            "date_published": "Date Published",
+                            "modified": "Date Modified"
+                        },
+                        "allow_custom": 0,
+                        "default_value": [
+                            "title",
+                            "content"
+                        ],
+                        "layout": "horizontal",
+                        "toggle": 0,
+                        "return_format": "value",
+                        "save_custom": 0
+                    },
+                    {
+                        "key": "field_62e933da4af64",
+                        "label": "Max Entries",
+                        "name": "rp-max-entries",
+                        "type": "number",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "10",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": 5,
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "min": 1,
+                        "max": "",
+                        "step": ""
+                    },
+                    {
+                        "key": "field_62e934561091b",
+                        "label": "Time Stamp",
+                        "name": "rp-time-stamp",
+                        "type": "button_group",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "15",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "after": "Newer",
+                            "before": "Older"
+                        },
+                        "allow_null": 0,
+                        "default_value": "after",
+                        "layout": "horizontal",
+                        "return_format": "value"
+                    },
+                    {
+                        "key": "field_62e937e037844",
+                        "label": "Template",
+                        "name": "rp-template",
+                        "type": "select",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "20",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "default.php": "default",
+                            "one-more.php": "one-more"
+                        },
+                        "default_value": false,
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "ui": 0,
+                        "return_format": "value",
+                        "ajax": 0,
+                        "placeholder": ""
+                    },
+                    {
+                        "key": "field_62e937f637845",
+                        "label": "Class",
+                        "name": "rp-class",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "30",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_62e9380937846",
+                        "label": "Style",
+                        "name": "rp-style",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "30",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_62ebd3769359b",
+                        "label": "Reverse Order",
+                        "name": "rp-order",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "10",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "default_value": 0,
+                        "ui": 0,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    },
+                    {
+                        "key": "field_62e9385730a32",
+                        "label": "Disable",
+                        "name": "rp-disable",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "10",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "default_value": 0,
+                        "ui": 0,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "related-posts"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    }
+]
